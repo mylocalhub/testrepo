@@ -1,0 +1,5 @@
+com\demo\s4adk\app\second\HelloWorldServlet.class
+com\demo\s4adk\app\second\OriginalBusinessPartnerServlet.class
+com\demo\s4adk\app\second\ExtendedBusinessPartner.class
+com\demo\s4adk\app\second\BPExtensionProcessor.class
+com\demo\s4adk\app\second\ExtendedBusinessPartnerServlet.class
