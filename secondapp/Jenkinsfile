@@ -1,5 +1,5 @@
-#!/usr/bin/env groovy 
-
+#!groovy 
+ 
 node {
     deleteDir()
     sh "git clone --depth 1 https://github.com/SAP/cloud-s4-sdk-pipeline.git pipelines"
