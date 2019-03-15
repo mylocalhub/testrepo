@@ -21,4 +21,14 @@ node {
     deleteDir()
     sh "git clone --depth 1 https://github.com/SAP/cloud-s4-sdk-pipeline.git -b ${pipelineVersion} pipelines"
     load './pipelines/s4sdk-pipeline.groovy'
+    
+    //*************to be checked content lines ----------------------------
+    // install Maven and add it to the path
+    env.PATH = "${tool 'M3'}/bin:${env.PATH}"
+ 
+    configFileProvider(
+        [configFile(fileId: 'maven-settings', variable: 'MAVEN_SETTINGS')]) {
+        sh 'mvn -s $MAVEN_SETTINGS clean package'
+    }
+    //*************to be checked content lines ----------------------------
 }
