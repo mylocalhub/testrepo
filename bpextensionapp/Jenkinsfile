@@ -1,5 +1,4 @@
 #! groovy 
-
 /*
  * This file bootstraps the codified Continuous Delivery pipeline for SAP S/4HANA extensions.
  * The pipeline helps you to deliver software changes quickly and in a reliable manner.
