@@ -1,4 +1,4 @@
-#!/usr/bin/env groovy 
+#!groovy 
 
 /*
  * This file bootstraps the codified Continuous Delivery pipeline for SAP S/4HANA extensions.
