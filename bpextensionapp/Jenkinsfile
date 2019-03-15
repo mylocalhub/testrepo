@@ -8,5 +8,6 @@ node {
 
 	stage 'Archive'
 		archive 'ProjectName/bin/Release/**'
+	stage 'dummy'
 
 }
